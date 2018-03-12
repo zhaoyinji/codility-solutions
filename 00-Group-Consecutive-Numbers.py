@@ -32,9 +32,11 @@ def solution(A):
             count2 = 0
         max_count = max(max_count, count1+count2)
     
+    #print(max_count)
     return max_count
 
 assert solution([1]) == 1
 assert solution([1, 1]) == 2
 assert solution([1, 2, 1, 2, 5, 1, 5]) == 5
 assert solution([1, 2, 1, 2, 3, 1, 3, 2, 3, 3]) == 7
+assert solution([1, 2, 4, 1, 4, 2, 4, 4, 4]) == 5
