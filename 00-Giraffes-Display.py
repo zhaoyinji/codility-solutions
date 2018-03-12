@@ -8,6 +8,8 @@ def solution(A):
         else:
             while group_max_stack and x < group_max_stack[-1]:
                 group_max_stack.pop()
+    
+    #print(group_max_stack)
     return len(group_max_stack) + 1 
 
 assert solution([1, 2, 5, 4, 6, 7]) == 5

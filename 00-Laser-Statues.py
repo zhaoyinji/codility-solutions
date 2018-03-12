@@ -22,7 +22,7 @@ def solution(A):
                 else:
                     lasers[slope] = -1
 
-    print(lasers)
+    #print(lasers)
     count = 0
     for i in lasers.keys():
         count += abs(lasers[i])
